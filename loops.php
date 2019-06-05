@@ -39,14 +39,11 @@ for example:
 4 % 2 = 0 -> even number
 */
 for ($i = 0; $i <sizeof($number); $i += 1) {
-    $num=$number[$i];
-    $check = $num % 2;
-    if($check !==0){
-        echo "<br>".$num;
+    $value = $number[$i] % 2;
+    if($value !==0){
+        echo "<br>".$number[$i];
     }
-} ;
-
-
+}
 
 // task separator
 echo "<hr style=\"margin 1rem 0\">";

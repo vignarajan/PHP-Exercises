@@ -24,7 +24,7 @@ Use the PHP function range(start, end, step)
 to create array of numbers 5 to 100 with the step 5 
 (example: 5, 10, 15, ...)
 */
-$number = range(5, 100, 5);
+$number = range(7, 97, 9);
 print_r($number);
 /*
 Use for-loop and if-statement to print all odd numbers.
